@@ -1,4 +1,4 @@
-﻿{
+{
     "name":  "moe/laravel-task",
     "description":  "MOE task management package for Laravel â€” assignment, priorities, dependencies, comments.",
     "type":  "library",
