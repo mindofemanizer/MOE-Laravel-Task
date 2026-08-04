@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace MOE\Task;
+namespace Moe\Task;
 
 use Illuminate\Support\ServiceProvider;
-use MOE\Task\Services\TaskService;
-use MOE\Task\Services\TaskAssignmentService;
+use Moe\Task\Services\TaskService;
+use Moe\Task\Services\TaskAssignmentService;
 
 class TaskServiceProvider extends ServiceProvider
 {

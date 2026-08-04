@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-use MOE\Task\Models\Task;
-use MOE\Task\Models\TaskCategory;
-use MOE\Task\Tests\TestCase;
+use Moe\Task\Models\Task;
+use Moe\Task\Models\TaskCategory;
+use Moe\Task\Tests\TestCase;
 
 uses(TestCase::class);
 

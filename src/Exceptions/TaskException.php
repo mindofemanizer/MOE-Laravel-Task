@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MOE\Task\Exceptions;
+namespace Moe\Task\Exceptions;
 
 use RuntimeException;
 

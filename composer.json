@@ -21,18 +21,18 @@
     },
     "autoload": {
         "psr-4": {
-            "MOE\\Task\\": "src/"
+            "Moe\\Task\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MOE\\Task\\Tests\\": "tests/"
+            "Moe\\Task\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "MOE\\Task\\TaskServiceProvider"
+                "Moe\\Task\\TaskServiceProvider"
             ]
         }
     },

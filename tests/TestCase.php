@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MOE\Task\Tests;
+namespace Moe\Task\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
 
@@ -11,7 +11,7 @@ class TestCase extends Orchestra
     protected function getPackageProviders($app): array
     {
         return [
-            \MOE\Task\TaskServiceProvider::class,
+            \Moe\Task\TaskServiceProvider::class,
         ];
     }
 

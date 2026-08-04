@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace MOE\Task\Services;
+namespace Moe\Task\Services;
 
-use MOE\Task\Models\Task;
+use Moe\Task\Models\Task;
 
 class TaskService
 {

@@ -11,7 +11,7 @@ Package manajemen task/workflow untuk Laravel — assignment, prioritas, subtask
 
 ```bash
 composer require moe/laravel-task
-php artisan vendor:publish --provider="MOE\\Task\\TaskServiceProvider" --tag="moe-task-config"
+php artisan vendor:publish --provider="Moe\\Task\\TaskServiceProvider" --tag="moe-task-config"
 php artisan migrate
 ```
 
@@ -20,7 +20,7 @@ php artisan migrate
 ### 1. Buat task
 
 ```php
-use MOE\Task\Facades\Task;
+use Moe\Task\Facades\Task;
 
 $task = Task::create([
     'title' => 'Buat Draft Akta Jual Beli',
@@ -83,7 +83,7 @@ cancelled cancelled
 ## Assignable (Trait)
 
 ```php
-use MOE\Task\Traits\Assignable;
+use Moe\Task\Traits\Assignable;
 
 class Document extends Model
 {

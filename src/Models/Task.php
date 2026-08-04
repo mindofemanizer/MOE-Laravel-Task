@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MOE\Task\Models;
+namespace Moe\Task\Models;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;

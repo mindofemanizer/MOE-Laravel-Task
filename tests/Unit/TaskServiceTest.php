@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-use MOE\Task\Facades\Task as TaskFacade;
-use MOE\Task\Models\Task;
-use MOE\Task\Services\TaskService;
-use MOE\Task\Tests\TestCase;
+use Moe\Task\Facades\Task as TaskFacade;
+use Moe\Task\Models\Task;
+use Moe\Task\Services\TaskService;
+use Moe\Task\Tests\TestCase;
 
 uses(TestCase::class);
 

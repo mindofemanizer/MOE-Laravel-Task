@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace MOE\Task\Traits;
+namespace Moe\Task\Traits;
 
 use Illuminate\Database\Eloquent\Relations\MorphMany;
-use MOE\Task\Models\Task;
+use Moe\Task\Models\Task;
 
 trait Assignable
 {
@@ -16,7 +16,7 @@ trait Assignable
 
     public function createTask(array $data): Task
     {
-        return app(\MOE\Task\Services\TaskService::class)
+        return app(\Moe\Task\Services\TaskService::class)
             ->create(array_merge($data, [
                 'taskable_type' => $this->getMorphClass(),
                 'taskable_id' => $this->getKey(),
