@@ -1,6 +1,6 @@
-# MOE Laravel Task
+﻿# MOE Laravel Task
 
-Package manajemen task/workflow untuk Laravel — assignment, prioritas, subtask, komentar.
+Package manajemen task/workflow untuk Laravel â€” assignment, prioritas, subtask, komentar.
 
 ## Persyaratan
 
@@ -10,7 +10,7 @@ Package manajemen task/workflow untuk Laravel — assignment, prioritas, subtask
 ## Instalasi
 
 ```bash
-composer require moe/laravel-task
+composer require moe/laravel-task:dev-main
 php artisan vendor:publish --provider="Moe\\Task\\TaskServiceProvider" --tag="moe-task-config"
 php artisan migrate
 ```
@@ -75,8 +75,8 @@ Task::markOverdueTasks();           // auto-mark
 ## Status Task
 
 ```
-open → in_progress → review → completed
-  ↓         ↓
+open â†’ in_progress â†’ review â†’ completed
+  â†“         â†“
 cancelled cancelled
 ```
 
@@ -97,7 +97,7 @@ class Document extends Model
 
 ## Prioritas
 
-`low` → `medium` → `high` → `urgent`
+`low` â†’ `medium` â†’ `high` â†’ `urgent`
 
 ## Konfigurasi
 
@@ -122,4 +122,4 @@ composer test
 
 ## Lisensi
 
-MIT © MOE (MindOfEmanizer)
+MIT Â© MOE (MindOfEmanizer)

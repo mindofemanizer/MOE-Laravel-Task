@@ -3,12 +3,25 @@
     "description": "MOE task management package for Laravel — assignment, priorities, dependencies, comments.",
     "type": "library",
     "license": "MIT",
+    "keywords": [
+        "laravel",
+        "task",
+        "todo",
+        "assignment",
+        "workflow",
+        "priority",
+        "moe"
+    ],
     "authors": [
         {
             "name": "MindOfEmanizer",
             "email": "mindofemanizer@users.noreply.github.com"
         }
     ],
+    "support": {
+        "issues": "https://github.com/mindofemanizer/MOE-Laravel-Task/issues",
+        "source": "https://github.com/mindofemanizer/MOE-Laravel-Task"
+    },
     "require": {
         "php": "^8.2",
         "illuminate/support": "^11 | ^12 | ^13",
@@ -42,6 +55,7 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "config": {
+        "sort-packages": true,
         "allow-plugins": {
             "pestphp/pest-plugin": true
         }
