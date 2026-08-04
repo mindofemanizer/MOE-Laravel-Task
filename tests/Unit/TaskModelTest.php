@@ -4,9 +4,6 @@ declare(strict_types=1);
 
 use Moe\Task\Models\Task;
 use Moe\Task\Models\TaskCategory;
-use Moe\Task\Tests\TestCase;
-
-uses(TestCase::class);
 
 it('creates task', function () {
     $task = Task::create([

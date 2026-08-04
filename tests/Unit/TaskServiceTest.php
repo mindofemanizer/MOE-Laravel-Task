@@ -5,9 +5,6 @@ declare(strict_types=1);
 use Moe\Task\Facades\Task as TaskFacade;
 use Moe\Task\Models\Task;
 use Moe\Task\Services\TaskService;
-use Moe\Task\Tests\TestCase;
-
-uses(TestCase::class);
 
 beforeEach(function () {
     $this->service = app(TaskService::class);
